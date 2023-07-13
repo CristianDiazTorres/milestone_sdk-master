@@ -1,0 +1,25 @@
+{
+  "name": "milestone_sdk",
+  "version": "1.0.0",
+  "description": ".idea/\r .vscode/\r lib/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel ./src -d ./lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenzer/milestone_sdk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alenzer/milestone_sdk/issues"
+  },
+  "homepage": "https://github.com/alenzer/milestone_sdk#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
